@@ -11,7 +11,7 @@ export default function UserPages() {
             <button className="my-[15px] flex items-center gap-[10px] cursor-pointer"> <IconLogout2 /> Logout</button>
            </div>
            </section>
-           <section id = "content" className="flex-1 p-8 bg-white- overflow-y-auto">
+           <section id = "content" className="flex-1 p-8 bg-white overflow-y-auto">
             <input type="search" placeholder="Cari User" className="w-full p-2.5 border border-gray-400 rounded mb-5"></input>
             <div className="flex flex-col gap-4 user-list">
                 <div className="border border-black rounded-lg p-2 flex justify-between items-center user-card">
